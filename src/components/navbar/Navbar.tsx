@@ -84,7 +84,7 @@ const Navbar = () => {
               required
             />
           </div>
-          <NavLink href='/login' onClick={toggleMenu} hoverStyle=''>
+          <NavLink href='/login' hoverStyle=''>
             <HiOutlineUserCircle className='w-6 h-6' /> Log In / Sign Up
           </NavLink>
         </div>
